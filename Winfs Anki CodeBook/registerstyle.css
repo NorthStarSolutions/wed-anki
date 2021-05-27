@@ -1,14 +1,19 @@
-h1{
-    color: red;
-
-}
 h2{
-    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+        background: yellowgreen;
+        border-radius: 10px;
 
 }
-
-p{
-    color: black;
+body{
+    background:lightgrey;
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+select{
+    background:lightblue;
 }
 #fttext{
     clear; both;
