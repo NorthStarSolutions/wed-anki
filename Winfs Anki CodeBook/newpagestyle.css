@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(whitechurch.jpeg);
+    background-size: cover;
+}
+
+header{}
+
+section{}
+
+
+h1{
+    color: red;
+
+}
+
+
+h2, #gal1 {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(241, 109, 0, 0.4);
+    /* Size of the border, Style for the border eg dashed/solid/etc, Color of the border using either Hex or RGB 
+    'a' (Alpha!) at the end sets the Apacity or See Through between 1 - 0*/
+    cursor: pointer;
+    
+    
+    }
+
+h3{
+    color: rgb(241, 109, 0);
+}
+
+p{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Cormorant Upright', serif;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 90%;
+    /* text size percentage of the original text */
+    line-height:20px;
+    
+}
+
+img{
+    float: left;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+button{
+    cursor: pointer;
+}
+
+#fttext{
+    clear; both;
+    color: red;
+    text-align: center;
+    font-style:italic;
+}

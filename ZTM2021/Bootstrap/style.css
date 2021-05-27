@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+.col{
+    background-color: beige;
+    border: 2px solid brown;
+
+}

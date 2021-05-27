@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\JS-DEV-ENV-DEMO"
+		},
+		{
+			"path": "..\\..\\GitHub_Local\\Eleventry"
+		},
+		{
+			"path": "..\\Brewery"
+		},
+		{
+			"path": "..\\CFB"
+		},
+		{
+			"path": "..\\Traversy"
+		},
+		{
+			"path": "..\\Winfs Anki CodeBook"
+		},
+		{
+			"path": "..\\ZTM2021"
+		},
+		{
+			"path": "..\\JAMStack_Netlify"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Winfs Anki CodeBook",
+		"liveServer.settings.port": 5501
+	}
+}
