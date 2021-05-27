@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>✵Winford's Anki</title>
+    <link rel="stylesheet" type="text/css" href=".\indexstyle.css">
+    
+</head>
+
+<!-- The Main HTML Section -->
+<body>
+    <h1><center> Working Anki</center></h1>
+    <br>
+    <h2>Creating an Empty Website Shell</h2> 
+        Hitting the '!' Exclamation Mark on the very first line, then press the [Tab] key o [Return], results in a
+        Brand New Empty Website Shell (aka Boilerplate - Code Template!) being created, then you just insert text in between the
+        Body tags etc
+        ps. https://html-css-js.com/html/character-codes/
+        <br>
+        <h2>Adding Comments For Other Developers</h2> 
+            Hitting the 'Ctrl+/' combination will automaticaly create the 'Comments' line
+        <!-- 
+<!DOCTYPE html> = This tell the Web Browser what VERSION of the HTML Document Type it is working with or How to Render, in this case an html 5 document 
+<html lang="en"> = The Type of elements eg HTML and the language being used within the HTML Doc Type
+<head> = Provides information to tell the Web Browser how it should handle the webpage/document
+    <meta charset="UTF-8"> = Metadata Elements encoded using the Standard UNICODE TRANSFORMATION FORMAT-8 Character Set, it's what is responsible for websites displaying the Wrong characters/or gobbledy gook on websites
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title TBC</title> = A Given Name for the Website
+</head>
+<body> = 
+    
+</body>
+</html>
+
+
+        -->
+    <hr size="3" noshade="">
+    <br>
+    <h2>Enabling Extensions</h2>
+        Live Server = Launches a WebDev local Server with live reload features for static & dynamic pages, (Right-Click on index.html filename in VSC Explorer window!)
+    <hr size="3" noshade="">
+    <br>
+    <h2>Creating a Break Line</h2> is created by the single use     '<'br'>' with no closing bracket
+    <hr size="3" noshade="">
+    <br>
+    <h2>Adding a comment to my code</h2>
+        For clarity and readability is via the '<'!-- and --'>' elements
+    <!-- I'm a Comment -->
+    <hr size="3" noshade="">
+    <br>
+    <h2><center>TAGS</center></h2>
+        Normally there are 'Tags' that work in Opening & Closing Pairs,
+        There are also 'Self Closing' tags that basicall has a / slash at the end of the tag name,
+        for example the image tag '<'img /'>' with some defining attributes such as height and source.
+        for example the Line Break tag '<'br /'>'
+        <br>
+        <br>      
+        However, after the Main - Html, Head, Title and Body tags:  
+    <h4><p>'<'html'>' & '<'/html'>','<'head'>' & '<'/head'>','<'title'>' and '<'/title'>' and finally the Main part '<'body'>' & '<'/body'>' tags</h2>
+        <br>
+        The most commonly used HTML5 Tags with attributes or text are:
+        <h2>Making part of the text Bold</h2>
+        Use the Strong tagname '<'strong'>' and'<'/strong'>' not '<'b'>' '<'/b'>' or Ctrl+B as with MS Word!
+        <br>
+        <h2>Making part of the text in Italics</h2>
+        Use the Emphasis tagname '<'em'>' and'<'/em'>' not '<'i'>' '<'/i'>' or Ctrl+I as with MS Word!
+        <br>
+    <h2><p>Adding a Long or Short paragraph of text </h2>
+        using the '<'p'>' and '<'/p'>' tags
+        <br>
+        <br>
+        #1 This is the First line in the Paragraph
+        <br>
+        #2 This is the Second line in the Paragraph ...
+        </p>
+        <!-- <p>I'm a paragraph tag!</p> -->
+    <h2><p>Creating a New List of items using the Ordered or Unordered with Bullet Points '<'ol'>' & '<'/ol'>' '<'ul'>' & '<'/ul'>'tags</p></h2>
+    <ol>
+        <li>First List Item</li>
+            <ul>
+            <li>Sub List Item</li>
+            <li>Sub List Item</li>
+            </ul>
+        <li>Adding an 'Anchor' to a webpage to link to another Webpage or Site, by using the '<'a ref=""'>' anchor tagname</li>
+        <!-- D:\_Web Dev\_Bootcamps\Winfs Anki CodeBook\TBC -->
+            <ul>
+                <a href=".\newpage.html"> Anki Page Two</a>
+            </ul>
+        <li>Registration</li>
+            <ul>
+                <a href=".\register.html"> Registration Details</a> 
+            </ul>
+        <li>CSS Box</li>
+            <ul>
+                <a href=".\boxun.html"> CSS Box</a> 
+            </ul>
+        <!-- <li>Wait But Why Lil Test</li>
+            <ul>
+                <a href=".\TestUns1.html"> TestUns1</a>
+            </ul> -->
+        <li>etc ...</li>
+    </ol>
+    <ul>
+        <li>Unordered List Item</li>
+        <li>Unordered List Item</li>
+        <li>Unordered List Item</li>
+        <li>etc ...</li>
+    </ul>
+    <h2>Adding a button that can be <Button> Pressed </Button> and later on used with JavaScript</h2>
+        Use the Button tagname '<'button'>' and'<'/button'>' 
+        <br/>
+    <hr size=3 noshade="">
+    <br>
+    <h2>Other SEO tags include the following:</h2>
+    <br>
+    <p>main, title, header, body, nav, article, section, video, and others</p>
+    <hr size="3" noshade="">
+    <br>
+    <h2><p>img Self-closing element along with the path name is used to add images to the website, such as "img src..." And using the 'Alt' attribute for Screen Readers</p></h2>
+    <p> For example: '<'img src="https://www.your-image-source.com/your-image.jpg" alt="Some Descriptive Text about the Image being Referenced"'>'</p>
+    <hr size="3" noshade="">
+
+
+    <!-- Hitting enter Several times, does not reflect in the space on the website page -->
+    
+    <!-- The Form Section 
+    
+    Ref Sites:
+    
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    -->
+    <h1><center>FORM</center></h1>
+    <h2>Form is used by the Users to Enter their Registration details</h2> 
+    Using the Form tagname '<'form'>' & '<'/form'>' Setting <strong>'Named Label'</strong> attributes along with Different types of <strong>'Input Types'</strong> such as 
+    input = text, '<'input type=email'>', '<'input type=submit'>', '<'input type=register'>', <'input type=date>' etc
+    <br>
+    Form uses tags as usual <strong>'<>'</strong> with, <strong>':'</strong> Colon and <strong>'='</strong> The Equals sign 
+    for the Form <strong>'InputSelector'</strong>, <strong>'InputArritbutes:'</strong> & <strong>'InputValues;'</strong>
+    <br>
+    using the word 'Required' indicates the field is to be populated before submitting the form can be processed 
+    
+    <br>
+    For example:
+    <br>
+    Firstname: <input type=text><br>
+    Lastname: <input type=text><br>
+    Birthdate or DOB: <input type=date><br>
+    Email (Required!): <input type=email required><br>
+    Password (Min 8 Chars): <input type=password minlength="8"><br>
+    <input type=radio name=radiobuttons>RadioButton1 - Is Your Favourite Colour Green?:<br>
+    <input type=radio name=radiobuttons>RadioButton2 - Is Your Favourite Colour Yellow?:<br>
+    <input type=radio name=radiobuttons>RadioButton3 - Is Your Favourite Colour Red?:<br>
+    RadioButton4 - Is Your Favourite Colour Blue?: <input type=radio name=radiobuttons><br>
+    RadioButton5 - Is Your Favourite Colour Black?: <input type=radio name=radiobuttons><br>
+    RadioButton6 - Is Your Favourite Colour White?: <input type=radio name=radiobuttons><br>
+    CheckBox1 - Are You Fasting?: <input type=checkbox><br>
+    CheckBox2 - Do You Like Fruit?: <input type=checkbox><br>
+    CheckBox3 - Are you a Vegetariain?: <input type=checkbox><br>
+    <input type=checkbox>CheckBox4 - Do You Like Sausages?:<br>
+    <br>
+    Lastly when creating Forms, the use of dropdown selection menu is created using the <strong>'<'select'>' & '<'/select'>'</strong> tagname to indicate the dropdown section<br>
+    Once the Select dropdown menu is initialised, the format uses the 'Option' tag to set the <strong>'ValueAttributes'</strong> and <strong>'ValueNames'</strong> for the dropdowns<br>
+    <br>
+    For example - Footwear:<br>
+    <select>
+        <option value="Boot">Boot</option>
+        <option value="Clog">Clog</option>
+        <option vlaue="Doc Martins">Doc Martins</option>
+        <option value="Moccasins">Moccasins</option>
+        <option value="Slippers">Slippers</option>
+    </select>
+    <br>
+    <br>
+    Submit: <input type=submit value="SubmitButton"><br>
+    Reset: <input type=reset value="StartAllOver"><br>
+    <input type=submit><br>
+    <input type=reset><br>
+    For Example:
+    <a href=".\register.html"> Sample Registration </a>
+    <hr size="3" noshade="">
+    <br>
+    
+    
+    <!-- The CSS Section -->
+    <h1><center>CSS</center></h1>
+    <h2>Once the basic HTML webpage has been created, CSS is used to Style, Colour and Format the webpage</h2> 
+    using either the Style tagname '<'style'>' & '<'/style'>' in the Head secition or the Link:css to a CSS document 
+    <br>
+    CSS uses <strong>'{}'</strong> Curley Brackets, <strong>':'</strong> Colon and <strong>';'</strong> Semi-colon 
+    for the CSS <strong>'CSSSelector'</strong>, <strong>'CSSPropertyArritbutes:'</strong> & <strong>'CSSPropertyValues;'</strong>
+    <br>
+    For example:
+    <br>
+    h1{color:red;}
+    h2{color:darkblue;}
+    <br>
+    <br>
+    <h2>Div & Span </h2>
+    CSS uses both the Div tagname '<'div'>' & '<'/div'>' to format a block/section of HTML<br>
+    And CSS uses the Span tagname '<'span'>' & '<'/span'>' to format a line/section of HTML without it being affected or affecting other areas of HTML code<br>
+    <br>
+    <hr size="3" noshade="">
+    <br>
+    <h1><center>Ref Sites Used During The Edification</center></h1>
+    <h2>Sites:</h2>
+    <ol>
+        <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/">FreeCodeCamp - Introduction to Basic HTML & HTML5</a></li>
+        <li>https://www.freecodecamp.org/learn</li>
+        <li>https://codepen.io/</li>
+        <li>https://www.w3schools.com/</li>
+        <li>https://developer.mozilla.org/en-US/</li>
+        <li>https://devdocs.io/</li>
+        <li>http://web.archive.org/</li>
+        <li>https://tinyurl.com/y42bfydb</li>
+        <li>https://unicode-table.com/en/#control-character</li>
+        <li>https://www.unicode.org/standard/WhatIsUnicode.html</li>
+        <li>https://tinyurl.com/</li>
+    </ol>
+    <br>
+    Spending all of your time learning and memorizing all of the html tags and attributes is not the most efficient use of your time. Most job interviews of a web developer will never test this knowledge. What you want to do instead is this: Understand how you can use HTML, and how to use online resources to find html tags and attributes that you need. A great developer is someone who knows how to find solution to problems and knows where to look. No developer can memorize everything, especially when we start learning CSS and Javascript. 
+    <hr size="3" noshade="">
+    <footer>
+        <div id="fttext">
+        WEDs Anki Website made with unadulterated Love
+        </div>
+    </footer>
+</body>
+</html>

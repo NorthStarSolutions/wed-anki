@@ -1,0 +1,23 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+        background: yellowgreen;
+        border-radius: 10px;
+
+}
+body{
+    background:lightgrey;
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+select{
+    background:lightblue;
+}
+#fttext{
+    clear; both;
+    color: red;
+    text-align: center;
+    font-style:italic;
+}
