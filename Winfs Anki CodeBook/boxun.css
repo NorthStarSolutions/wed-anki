@@ -19,3 +19,9 @@ h2{
     width: 100px;
     height: 100px;
 }
+#fttext{
+    clear; both;
+    color: red;
+    text-align: center;
+    font-style:italic;
+}
