@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box
+}
+
+h2{
+    color: blue;
+}
+
+.boxmodel{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid red; 
+    display: inline-block;
+    padding: 5px 20px;
+    /* TWO Numbers used is Top & Bottom, Left & Right  */
+    margin: 0px 20px;
+     /* TWO Numbers used is Top & Bottom, Left & Right  */
+    width: 100px;
+    height: 100px;
+}
+#fttext{
+    clear; both;
+    color: red;
+    text-align: center;
+    font-style:italic;
+}

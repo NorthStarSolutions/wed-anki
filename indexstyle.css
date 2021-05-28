@@ -1,0 +1,48 @@
+body{
+    background:lightyellow;
+    color:black;
+    font-family: Helvetica neue, Helvetica, Arial, sans-serif; courier;
+    
+}
+
+header{}
+
+section{}
+
+footer{}
+
+h1{
+    color:red;
+    font-family: Helvetica neue, Helvetica, Arial, sans-serif; courier;
+            }
+/* h2{
+    color:blue;
+    font-family: Helvetica neue, Helvetica, Arial, sans-serif; courier;
+} */
+h2{
+    color: blue;
+}
+h4{
+    color: maroon;
+    font-family: Helvetica neue, Helvetica, Arial, sans-serif; courier;
+}
+
+select{
+    background: lightskyblue;
+
+}
+
+button{
+    background:yellow;
+    border-radius: 10px;        
+}
+
+a{
+    color:yellowgreen;
+}
+#fttext{
+    clear; both;
+    color: red;
+    text-align: center;
+    font-style:italic;
+}
