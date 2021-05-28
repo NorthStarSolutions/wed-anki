@@ -7,6 +7,11 @@ body{
   margin: 0px;
   border-radius: 10px;
 }
-form{
-  background: aquamarine;
+text{
+  background-color: aquamarine;
+  font-family: verdana;
+  font-size: 12px;
+  size="10"
+  maxlength="30"
+
 }
